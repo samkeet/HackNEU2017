@@ -7,7 +7,7 @@ We have developed an anomaly detection system using machine learning and adaptiv
 ## Approach
 In [our first method](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/MultivariateGaussian/unmasked_001.ipynb) we used a multivariate Gaussian model based on [this work](https://aqibsaeed.github.io/2016-07-17-anomaly-detection/) to learn the typical power trends and detect the outliers. Moreover, various data pre-processing and post-processing challenges including restructuring our dataset for our algorithm and gathering our output data to an analyzable form have been addressed. The following figures shows the output of our tool operated on an unmasked AES power traces (red point shows outliers which alert the user/admin about and anomalous event):
 
-<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/mogOutlier.png" alt="Global Reactive Power vs Time Points" width="80%" height="auto">
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/mogOutlier.png" alt="Multivariate Gaussian model detected anomalous points in the unmasked AES power traces" width="80%" height="auto">
 
 *Multivariate Gaussian model detected anomalous points in the unmasked AES power traces*
 
