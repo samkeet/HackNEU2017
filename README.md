@@ -6,12 +6,14 @@ We have developed an anomaly detection system using machine learning and adaptiv
 
 ## Approach
 In [our first method](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/MultivariateGaussian/unmasked_001.ipynb) we used a multivariate Gaussian model based on [this work](https://aqibsaeed.github.io/2016-07-17-anomaly-detection/) to learn the typical power trends and detect the outliers. Moreover, various data pre-processing and post-processing challenges including restructuring our dataset for our algorithm and gathering our output data to an analyzable form have been addressed. The following figures shows the output of our tool operated on an unmasked AES power traces (red point shows outliers which alert the user/admin about and anomalous event):
+
 ![MogOutlier](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/mogOutlier.png)
 *Multivariate Gaussian model detected anomalous points in the unmasked AES power traces*
+
 In our [second method](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/KalmanFilter/Kalman_filter_integrated.py), we used a Kalman filter to track the trend of power signals and detect the abnormalities in the signal amplitude. We based our implementation for this method on [this code](http://scipy-cookbook.readthedocs.io/items/KalmanFiltering.html). In this method, we defined outliers as signal points whose amplitude are higher than the Kalman filter prediction for. The first version of the Kalman filter could not track the signal properly. After changing the process variance *Q* in the [kalman filter](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/KalmanFilter/Kalman_filter_integrated.py) code from 1e-5 to 0.5 the filter started to track the signal closely.
 
 Here are the results of our tool categorizing time points from different signal traces of our household power consumption dataset into normal (red) and abnormal (blue) trends:
-![Global Active Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col3_outliers_removed.png)
+![Global Active Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col3_outliers_removed.png  | width=48)
 *Global Active Power vs Time Points*
 ![Global Reactive Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col4.png)
 *Global Reactive Power vs Time Points*
@@ -27,12 +29,12 @@ Here are the results of our tool categorizing time points from different signal 
 *Sub Meter 3 vs Time Points*
 For creating a remote alert system, we developed a [custom Android app](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/AndroidApp) using [Android Studio](https://developer.android.com/studio/intro/index.html) which accepts notifications from Google Firebase platform. In the other end, the Firebase platform receives an alert from our anomaly detection system in case an anomalous behavior detected in the system. Here is a screenshot of a push notification received on a Samsung Android phone in our live demo:
  
-![Notification](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/pushNotification.png)
+![Notification](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/pushNotification.PNG)
 *Push notification received from our anomaly detection system in a live demo*
 
 Furthermore, We integrated *Slack* and *Twitter* APIs to post alerts on those social media sites as well.
 
-The API integration code for the notifications can be found [here](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/src/NotificationInterface/notificationSend.py). Note that all of the detection and notification codes except the Android app which is written in Java, are developed using [python](https://www.python.org/).
+The API integration code for the notifications can be found [here](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/NotificationInterface/notificationSend.py). Note that all of the detection and notification codes except the Android app which is written in Java, are developed using [python](https://www.python.org/).
 
 ## Challenges Faced
 * Handling large datasets (10000x3125)
@@ -42,7 +44,7 @@ The API integration code for the notifications can be found [here](https://githu
 * Integrating Slack and Twitter posting APIs and authentication procedures to our system
 
 ## License
-This project is licensed under the MIT License - see the [license]() file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/LICENSE) file for details
 
 ## Project members
 |Name|Email|Contribution|
