@@ -29,22 +29,21 @@ Here are the results of our tool categorizing time points from different signal 
 
 *Global Intensity vs Time Points*
 
-![Sub Meter 1 vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col7.png)
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col7.png" alt="Sub Meter 1 vs Time Points" width="80%" height="auto">
 
 *Sub Meter 1 vs Time Points*
 
-![Sub Meter 2 vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col8.png)
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col8.png" alt="Sub Meter 2 vs Time Points" width="80%" height="auto">
 
 *Sub Meter 2 vs Time Points*
 
-![Sub Meter 3 vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col9.png)
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col9.png" alt="Sub Meter 3 vs Time Points" width="80%" height="auto">
 
 *Sub Meter 3 vs Time Points*
 
 For creating a remote alert system, we developed a [custom Android app](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/AndroidApp) using [Android Studio](https://developer.android.com/studio/intro/index.html) which accepts notifications from Google Firebase platform. In the other end, the Firebase platform receives an alert from our anomaly detection system in case an anomalous behavior detected in the system. Here is a screenshot of a push notification received on a Samsung Android phone in our live demo:
 
-<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/pushNotification.PNG" alt="Notification" width="100%" height="auto">
-
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/pushNotification.PNG" alt="Notification" width="80%" height="auto">
 
 *Push notification received from our anomaly detection system in a live demo*
 
