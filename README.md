@@ -18,11 +18,11 @@ Here are the results of our tool categorizing time points from different signal 
 
 *Global Active Power vs Time Points*
 
-![Global Reactive Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col4.png) <!-- .element height="70%" width="70%" -->
+![Global Reactive Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col4.png) <!-- .element height="40%" width="40%" -->
 
 *Global Reactive Power vs Time Points*
 
-![Voltage Deviation vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col5.png) <!-- .element height="70%" width="70%" -->
+![Voltage Deviation vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col5.png) <!-- .element height="40%" width="40%" -->
 
 *Voltage Deviation vs Time Points*
 
