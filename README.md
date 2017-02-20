@@ -22,7 +22,7 @@ Here are the results of our tool categorizing time points from different signal 
 
 *Global Reactive Power vs Time Points*
 
-![Voltage Deviation vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col5.png) <!-- .element height="40%" width="40%" -->
+![Voltage Deviation vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col5.png) <!-- .element height="10%" width="10%" -->
 
 *Voltage Deviation vs Time Points*
 
