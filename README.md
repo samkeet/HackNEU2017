@@ -18,33 +18,33 @@ Here are the results of our tool categorizing time points from different signal 
 
 *Global Active Power vs Time Points*
 
-![Global Reactive Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col4.png) <!-- .element height="40%" width="40%" -->
+![Global Reactive Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col4.png)
 
 *Global Reactive Power vs Time Points*
 
-![Voltage Deviation vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col5.png) <!-- .element height="10%" width="10%" -->
-
+![Voltage Deviation vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col5.png) 
 *Voltage Deviation vs Time Points*
 
-![Global Intensity vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col6.png) <!-- .element height="70%" width="70%" -->
+![Global Intensity vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col6.png)
 
 *Global Intensity vs Time Points*
 
-![Sub Meter 1 vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col7.png) <!-- .element height="70%" width="70%" -->
+![Sub Meter 1 vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col7.png)
 
 *Sub Meter 1 vs Time Points*
 
-![Sub Meter 2 vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col8.png) <!-- .element height="70%" width="70%" -->
+![Sub Meter 2 vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col8.png)
 
 *Sub Meter 2 vs Time Points*
 
-![Sub Meter 3 vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col9.png) <!-- .element height="70%" width="70%" -->
+![Sub Meter 3 vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col9.png)
 
 *Sub Meter 3 vs Time Points*
 
 For creating a remote alert system, we developed a [custom Android app](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/AndroidApp) using [Android Studio](https://developer.android.com/studio/intro/index.html) which accepts notifications from Google Firebase platform. In the other end, the Firebase platform receives an alert from our anomaly detection system in case an anomalous behavior detected in the system. Here is a screenshot of a push notification received on a Samsung Android phone in our live demo:
- 
-![Notification](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/pushNotification.PNG) <!-- .element height="70%" width="70%" -->
+
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/pushNotification.PNG" alt="Notification" width="100%" height="auto">
+
 
 *Push notification received from our anomaly detection system in a live demo*
 
