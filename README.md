@@ -10,9 +10,10 @@ In [our first method](https://github.com/samkeets/HackNEU-2017-Outliers/blob/mas
 
 In our [second method](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/outlier.png), we used a Kalman filter to track the trend of power signals and detect the abnormalities in the signal amplitude. We based our implementation for this method on [this code](http://scipy-cookbook.readthedocs.io/items/KalmanFiltering.html). In this method we defined outliers as signal points whose amplitude are higher than the Kalman filter prediction for. The first version of the Kalman filter could not track the signal properly. After changing the process variance from 1e-5 to 0.5 the filter started to track the signal accurately.
 
-
 After 
+![Outlier](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/outlier.png)
 
+We developed a [custom Android app](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/outlier.png) using Anroid Studio for which accepts notifications from google Firebase platform which is connected to our anamoly detection system. And also we integrated *Slack* and *Twitter* API to post alerts on those social medias.
 
 
 ## Challenges Faced
