@@ -18,14 +18,15 @@ Here are the results of our tool categorizing time points from different signal 
 
 *Global Active Power vs Time Points*
 
-![Global Reactive Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col4.png)
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col4.png" alt="Global Reactive Power vs Time Points" width="80%" height="auto">
 
 *Global Reactive Power vs Time Points*
 
-![Voltage Deviation vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col5.png) 
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col5.png" alt="Voltage Deviation vs Time Points" width="80%" height="auto">
+
 *Voltage Deviation vs Time Points*
 
-![Global Intensity vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col6.png)
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col6.png" alt="Global Intensity vs Time Points" width="80%" height="auto">
 
 *Global Intensity vs Time Points*
 
@@ -33,7 +34,7 @@ Here are the results of our tool categorizing time points from different signal 
 
 *Sub Meter 1 vs Time Points*
 
-<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col8.png" alt="Sub Meter 2 vs Time Points" width="80%" height="auto">
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col8.png" alt="Sub Meter 2 vs Time Points" width="75%" height="auto">
 
 *Sub Meter 2 vs Time Points*
 
