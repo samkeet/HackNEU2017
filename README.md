@@ -7,7 +7,7 @@ We have developed an anomaly detection system using machine learning and adaptiv
 ## Approach
 In [our first method](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/MultivariateGaussian/unmasked_001.ipynb) we used a multivariate Gaussian model based on [this work](https://aqibsaeed.github.io/2016-07-17-anomaly-detection/) to learn the typical power trends and detect the outliers. Moreover, various data pre-processing and post-processing challenges including restructuring our dataset for our algorithm and gathering our output data to an analyzable form have been addressed. The following figures shows the output of our tool operated on an unmasked AES power traces (red point shows outliers which alert the user/admin about and anomalous event):
 
-![MogOutlier](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/mogOutlier.png)
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/mogOutlier.png" alt="Global Reactive Power vs Time Points" width="80%" height="auto">
 
 *Multivariate Gaussian model detected anomalous points in the unmasked AES power traces*
 
@@ -44,7 +44,7 @@ Here are the results of our tool categorizing time points from different signal 
 
 For creating a remote alert system, we developed a [custom Android app](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/AndroidApp) using [Android Studio](https://developer.android.com/studio/intro/index.html) which accepts notifications from Google Firebase platform. In the other end, the Firebase platform receives an alert from our anomaly detection system in case an anomalous behavior detected in the system. Here is a screenshot of a push notification received on a Samsung Android phone in our live demo:
 
-<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/pushNotification.PNG" alt="Notification" width="80%" height="auto">
+<img src="https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/pushNotification.PNG" alt="Notification" width="78%" height="auto">
 
 *Push notification received from our anomaly detection system in a live demo*
 
