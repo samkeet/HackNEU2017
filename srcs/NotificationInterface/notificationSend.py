@@ -4,7 +4,6 @@ from pyfcm import FCMNotification
 from slackclient import SlackClient
 
 
-
     ################# Send notification to a single device.
     push_service = FCMNotification(api_key="<API key>")
 
@@ -15,11 +14,11 @@ from slackclient import SlackClient
     result = push_service.notify_single_device(registration_id=registration_id, message_title=message_title,
                                                message_body=message_body)
 
-	################# Twitter post (Need to be fixed!)										   
-	def get_api(cfg):
-		auth = tweepy.OAuthHandler(cfg['consumer_key'], cfg['consumer_secret'])
-		auth.set_access_token(cfg['access_token'], cfg['access_token_secret'])
-		return tweepy.API(auth)
+    ################# Twitter post (Need to be fixed!)										   
+    def get_api(cfg):
+    	auth = tweepy.OAuthHandler(cfg['consumer_key'], cfg['consumer_secret'])
+	auth.set_access_token(cfg['access_token'], cfg['access_token_secret'])
+	return tweepy.API(auth)
 
     # Fill in the values noted in previous step here
     cfg = {

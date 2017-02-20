@@ -13,7 +13,7 @@ In [our first method](https://github.com/samkeets/HackNEU-2017-Outliers/blob/mas
 In our [second method](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/KalmanFilter/Kalman_filter_integrated.py), we used a Kalman filter to track the trend of power signals and detect the abnormalities in the signal amplitude. We based our implementation for this method on [this code](http://scipy-cookbook.readthedocs.io/items/KalmanFiltering.html). In this method, we defined outliers as signal points whose amplitude are higher than the Kalman filter prediction for. The first version of the Kalman filter could not track the signal properly. After changing the process variance *Q* in the [kalman filter](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/srcs/KalmanFilter/Kalman_filter_integrated.py) code from 1e-5 to 0.5 the filter started to track the signal closely.
 
 Here are the results of our tool categorizing time points from different signal traces of our household power consumption dataset into normal (red) and abnormal (blue) trends:
-![Global Active Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col3_outliers_removed.png =100x200)
+![Global Active Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col3_outliers_removed.png) <!-- .element height="50%" width="50%" -->
 *Global Active Power vs Time Points*
 ![Global Reactive Power vs Time Points](https://github.com/samkeets/HackNEU-2017-Outliers/blob/master/figures/col4.png)
 *Global Reactive Power vs Time Points*
