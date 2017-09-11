@@ -65,9 +65,9 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Project members
 |Name|Email|Contribution|
 |----|-----|------------|
-|Majid Sabbagh|sabbagh.m@husky.neu.edu|Problem Modeling - Finding Datasets - Android App Design - Remote Notification Integration|
-|Samkeet Shah|shah.sam@husky.neu.edu|Problem Modeling - Preprocessing Datasets - Multivariate Gaussian Implementation - Plotting|
-|Shantanu Kawlekar|kawlekar.s@husky.neu.edu|Problem Modeling - Preprocessing Datasets - Kalman Filter Implementation - Plotting|
-|Yixing Zhang|zhang.yixin@husky.neu.edu|Problem Modeling - Finding Datasets - Report Preparation|
+|Majid Sabbagh|Problem Modeling - Finding Datasets - Android App Design - Remote Notification Integration|
+|Samkeet Shah|Problem Modeling - Preprocessing Datasets - Multivariate Gaussian Implementation - Plotting|
+|Shantanu Kawlekar|Problem Modeling - Preprocessing Datasets - Kalman Filter Implementation - Plotting|
+|Yixing Zhang|Problem Modeling - Finding Datasets - Report Preparation|
 ## Acknowledgments
 We would like to thank all the mentors especially, [Rohan Jahagirdar](https://www.linkedin.com/in/rohan-jahagirdar/) and [Shreyas Mahimkar](https://www.linkedin.com/in/shreyas-mahimkar-64593918/) for their great help during the Hackathon. We also thank all the hackathon officials for creating an awesome environment for the participants to develope their ideas.
